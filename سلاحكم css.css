@@ -9,6 +9,7 @@
     border-top-left-radius: 30px ;
 }
 
+
 #head img {
     width: 200px;
     height: 170px;
@@ -214,3 +215,56 @@ body {
 #foot address {
   font-style: normal;
 }
+
+
+@media  (max-width: 768px) {
+  #head {
+    flex-flow: column;
+  }
+  #head ul {
+    margin: 0%;
+  }
+  #head ul li {
+    display: block;
+    margin: 5px 10px;
+    width: 260px;
+}
+.topnav input[type=text] {
+  border: 1px solid #ccc;
+  width: 277px;
+}
+
+.parent {
+  width: 100%;
+
+}
+.parent .child {
+  border-radius: 50px;
+}
+.child a img {
+  width: 90%;
+  margin: 20px 0px;
+  border-radius: 50px;
+}
+
+.parent .child a {
+  display: block;
+  text-align: center;
+}
+.child a span {
+  display: block;
+  width: auto;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+#foot ul li{
+  font-size: 15px;
+}
+#foot ul {
+  width: 100%;
+  padding-inline-start: 0px;
+}
+
+}
+
